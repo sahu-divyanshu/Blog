@@ -67,11 +67,13 @@ function PostForm({ post }) {
       <Input
         label="Title :"
         placeholder="Title"
+        className="text-background"
         {...register("title", { required: true })}
       />
       <Input
         label="Slug :"
         placeholder="Slug"
+        className="text-background"
         {...register("slug", { required: true })}
         onInput={(e) => {
           setValue("slug", slugTransform(e.currentTarget.value), {
@@ -84,13 +86,14 @@ function PostForm({ post }) {
         name="content"
         control={control}
         defaultvalue={getValues("content")}
+        
       />
       <Input
         label="FeatureImage :"
         type="file"
         accept="image/png , image/jpg, image/jpeg, image/gif"
         divClass="flex gap-7"
-        className="w-auto"
+        className="w-auto text-background"
         {...register("image", { required: !post })}
       />
       {post && (
@@ -104,7 +107,7 @@ function PostForm({ post }) {
       <Select
         options={["active", "disable"]}
         label="Status :"
-        className="shadow "
+        className="shadow text-background"
         {...register("status", { required: true })}
       />
       <Button type="submit">{post ? "Update" : "Submit"}</Button>
