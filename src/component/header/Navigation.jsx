@@ -25,6 +25,11 @@ function Navigation() {
       slug: "/all-blogs",
       active: true,
     },
+    {
+      name:"Search",
+      slug:"/search",
+      active:true
+    }
   ];
 
   const [profile, setProfile] = useState(false);
