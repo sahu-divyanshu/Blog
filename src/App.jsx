@@ -85,16 +85,7 @@ function App() {
               </Authentication>
             }
           />
-          <Route
-            path="/all-blogs"
-            element={
-              <Authentication authentication={false}>
-                <Suspense fallback={<div>Loading...</div>}>
-                  <AllPost />
-                </Suspense>
-              </Authentication>
-            }
-          />
+
           <Route
             path="/my-blogs"
             element={

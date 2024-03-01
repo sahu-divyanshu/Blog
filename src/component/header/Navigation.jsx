@@ -21,11 +21,6 @@ function Navigation() {
       active: authStatus,
     },
     {
-      name: "All Blogs",
-      slug: "/all-blogs",
-      active: true,
-    },
-    {
       name:"Search",
       slug:"/search",
       active:true
