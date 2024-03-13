@@ -6,17 +6,17 @@ import { Button } from "../index";
 function LoginBtn({ className = "", type = "button", setProfile, ...prop }) {
   const Navigate = useNavigate();
   return (
-    <div className="flex items-end pb-7 w-full justify-center h-full">
+    <div className="flex items-end pb-7 w-full justify-center h-full mb-4 relative bottom-4">
       <Button
         type={type}
-        className={`${className}`}
+        className={`${className}` }
         onClick={() => {
           Navigate("/login");
           setProfile(false);
         }}
         {...prop}
       >
-        <img className="h-4 w-4" src={login} alt="logout image" />
+        <img className="h-4 w-4 " src={login}  alt="logout image" />
         LogIn
       </Button>
     </div>

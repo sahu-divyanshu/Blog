@@ -8,9 +8,9 @@ function PostCard({ $id, title, featureImage, content }) {
       to={`/post/${$id}`}
       className="h-[28rem] bg-accent w-full rounded-lg shadow-[0_10px_20px_rgba(0,_0,_0,_0.7)] hover:-translate-y-1 overflow-hidden "
     >
-      <div>
+      <div className=" w-full h-80 overflow-hidden">
         <img
-          className="h-72 w-full rounded-lg"
+          className="rounded-lg h-full w-full object-cover"
           src={service.getFilePreview(featureImage)}
           alt={`${title}`}
         />

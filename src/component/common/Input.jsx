@@ -8,7 +8,7 @@ function Input(
   return (
     <div className={`w-full ${divClass}`}>
       {label && (
-        <label className="text-xl text-background font-semibold" htmlFor={id}>
+        <label className="text-xl w-full text-text font-semibold" htmlFor={id}>
           {label}
         </label>
       )}

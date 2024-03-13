@@ -76,8 +76,8 @@ function Navigation() {
           <MdAccountCircle className="h-16 w-16 text-accent" />
         </div>
         {profile && (
-          <div className="absolute top-28 right-0 sm:w-96 z-50 w-72  sm:h-44 bg-accent shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px] p-5 rounded-md">
-            <h2 className="text-xl font-bold">
+          <div className="absolute top-28 right-0 sm:w-96 z-50  sm:h-44 bg-accent shadow-[rgba(255,255,204,_0.2)_10px_10px_10px_-1px] px-3 pt-5 rounded-md ">
+            <h2 className="text-l font-bold w-auto">
               My Acount:{" "}
               {authStatus ? (
                 authDetail?.email

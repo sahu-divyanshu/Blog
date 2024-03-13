@@ -89,11 +89,11 @@ function PostForm({ post }) {
         
       />
       <Input
-        label="FeatureImage :"
+        label="FeatureImage (less than 100kb) :"
         type="file"
         accept="image/png , image/jpg, image/jpeg, image/gif"
         divClass="flex gap-7"
-        className="w-auto text-background"
+        className=" text-text w-auto  "
         {...register("image", { required: !post })}
       />
       {post && (
