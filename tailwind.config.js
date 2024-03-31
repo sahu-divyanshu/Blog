@@ -31,7 +31,7 @@ export default {
 
     fontFamily: {
       heading: "undefined",
-      body: "Turret Road",
+      body: "Sans Serif",
     },
     // fontWeight: {
     //   normal: '400',
