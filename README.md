@@ -1,5 +1,5 @@
 # Blog
-Welcome to the Blog Webpage project built with Vite on the front end and a backend API for managing blogs. This project allows users to read, add, create, delete, and update blog posts. The live version of the application is hosted at [https://blog-two-rose-76.vercel.app/](https://blog-two-rose-76.vercel.app/).
+Welcome to the Blog Webpage project built with Vite on the front end and a backend API for managing blogs. This project allows users to read, add, create, delete, and update blog posts. The live version of the application is hosted at [https://blog-two-theta-19.vercel.app/](https://blog-two-theta-19.vercel.app/).
 
 ## Technologies Used
 
@@ -9,15 +9,19 @@ Welcome to the Blog Webpage project built with Vite on the front end and a backe
 
 ## Features
 
-1. **Read Blogs:** Users can browse and read existing blog posts.
+📌 **Add Post:** Share your thoughts, ideas, and insights with our community by creating and publishing your masterpiece in just a few clicks! 📝✍️
 
-2. **Add Blog:** Users can add a new blog post to the webpage.
+📌 **Edit/Update Post:** Need to make changes to your published content? No worries! With our user-friendly interface, you can easily tweak your posts to perfection. 🛠️✨
 
-3. **Create Blog:** Create a new blog post with a title, content, and any other relevant information.
+📌 **Delete Post:** Say goodbye to outdated or irrelevant content with our handy delete feature. Keep your blog fresh and engaging for your readers. 🗑️🚫
 
-4. **Delete Blog:** Remove a blog post from the webpage.
+📸 **Rich Content Support:** Appwrite's backend makes it a joy to integrate media elements into my posts. Adding images enriches the reading experience for my audience.
 
-5. **Update Blog:** Edit and update the content of an existing blog post.
+🔍 **Search Functionality:** The search feature provided by Appwrite ensures that my readers can easily find the content they are looking for.
+
+🔐 **Login Authentication:** Rest assured that your data and account are secure with our robust login authentication system. 🔒🔑
+
+✈️ **Optimization :** It also contain advance optimization features like lazy loading , list virtualization and windowing , debounce (in search functionality)
 
 ## Getting Started
 
